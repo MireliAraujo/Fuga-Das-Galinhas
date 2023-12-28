@@ -1,0 +1,36 @@
+.header{
+    &__menu{
+        background-color: transparentize($color: blue, $amount: 0.9);
+        height: 60px;
+        width: 100%;
+        position: fixed;
+
+        &__list {
+            display: flex;
+            justify-content: end;
+            list-style: none;
+
+            &__item{
+                background-color: transparentize($color: #000000, $amount: 0.4);
+                border: 1px solid #000;
+                border-radius: 5px;
+                text-align: center;
+                width: 120px;
+                height: 45px;
+                margin-right: 5px;
+
+                &__link{
+                    text-decoration: none;
+                    color: #fff;
+                    font-family: sans-serif;
+                }
+            }
+        }
+    }
+
+    &__logo{
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    
+}
