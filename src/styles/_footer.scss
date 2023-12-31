@@ -1,0 +1,32 @@
+@use 'variaveis';
+
+.footer{
+    background-color: black;
+    height: 150px;
+    padding-top: 40px;
+
+    .icon{
+        display: flex;
+        justify-content: center;
+        
+
+        &__icone{
+            color: #fff;
+            padding: 20px;
+            cursor: pointer;
+        }
+    }
+
+    p {
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+
+        a{
+            color: variaveis.$corSecundaria;
+            text-decoration: none;
+            
+        }
+        
+    }
+}

@@ -5,29 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <title>Fuga das Galinhas</title>
 </head>
 
 <body>
-    <header class="header">
+    <header class="header header--is-hidden">
         <nav class="header__menu">
             <ul class="header__menu__list">
                 <li class="header__menu__list__item">
-                    <a class="header__menu__list__item__link" href="#">Estamos fritas</a>
+                    <button>
+                        <a href="#">Estamos fritas</a>
+                    </button>
                 </li>
                 <li class="header__menu__list__item">
-                    <a class="header__menu__list__item__link" href="#">A Ameaça dos Nuggets</a>
+                    <button>
+                        <a href="#">A Ameaça dos Nuggets</a>
+                    </button>
                 </li>
             </ul>
         </nav>
-        <img class="header__logo" src="dist/images/fugaGalinhasCapa2.jpg" alt="">
     </header>
+
+    <section class="hero">
+        <img class="header__logo" src="dist/images/fugaGalinhasCapa2.jpg" alt="Fuga das galinhas">
+    </section>
 
     <main class="main">
         <div class="main__container">
             <div class="main__container__fuga">
                 <img src="dist/images/fugaGalinhasFilme1.jpg" alt="A fuga das galinhas: Estamos fritas">
-                <div class="main__fuga__sinopse">
+                <div class="main__container__fuga__sinopse">
                     <h3>Sinopse</h3>
                     <p>O filme conta a história da dona de um poleiro de galinhas localizado no interior da Inglaterra,
                         onde a maioria das aves vive uma vida limitada à produção de ovos. Quando um galo que veio dos
@@ -37,129 +45,140 @@
                         poleiro decide mandar toda a granja ao forno.</p>
                 </div>
             </div>
-            <h3>Elenco</h3>
-            <ul>
-                <li>
-                    <a href="#">Mel Gibson como Rocky
+            <h3 class=>Elenco</h3>
+            <ul class="main__container__fuga__list">
+                <li class="main__container__fuga__list__item">
+                    <a href="#">Mel Gibson <span>como</span> Rocky
                     </a>
                 </li>
-                <li>
-                    <a href="#">Julia Sawalha como Ginger
+                <li class="main__container__fuga__list__item">
+                    <a href="#">Julia Sawalha <span>como</span> Ginger
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Miranda Richardson como Sra. Tweedy
+                <li class="main__container__fuga__list__item">
+                    <a href="#">Miranda Richardson <span>como</span> Sra. Tweedy
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Tony Haygarth como Sr. Tweedy
+                <li class="main__container__fuga__list__item">
+                    <a href="#">Tony Haygarth <span>como</span> Sr. Tweedy
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Jane Horrocks como Babs
+                <li class="main__container__fuga__list__item">
+                    <a href="#">Jane Horrocks <span>como</span> Babs
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Imelda Staunton como Bunty
+                <li class="main__container__fuga__list__item">
+                    <a href="#">Imelda Staunton <span>como</span> Bunty
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Benjamin Whitrow como Fowler
+                <li class="main__container__fuga__list__item">
+                    <a href="#">Benjamin Whitrow <span>como</span> Fowler
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Lynn Ferguson como Mac
+                <li class="main__container__fuga__list__item">
+                    <a href="#">Lynn Ferguson <span>como</span> Mac
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Timothy Spall como Nick
+                <li class="main__container__fuga__list__item">
+                    <a href="#">Timothy Spall <span>como</span> Nick
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Phil Daniels como Fetcher
+                <li class="main__container__fuga__list__item">
+                    <a href="#">Phil Daniels <span>como</span> Fetcher
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">John Sharian como Circense
+                <li class="main__container__fuga__list__item">
+                    <a href="#">John Sharian <span>como</span> Circense
 
                     </a>
+                </li>
+                <li class="main__container__fuga__list__item">
+                    <button>
+                        <a href="https://www.netflix.com/br/title/60001287" target="_blank">Assista aqui</a>
+                    </button>
                 </li>
             </ul>
+            
 
             <div class="main__container__nuggets">
                 <img src="dist/images/fugaGalinhasFilme2.jpg" alt="A fuga das galinhas: A Ameaça dos Nuggets">
-                <div class="main__fuga__sinopse">
+                <div class="main__container__nuggets__sinopse">
                     <h3>Sinopse</h3>
                     <p>Um ano depois de fugirem da fazenda Tweedy, as galinhas encontraram um santuário pacífico da ilha para todo o rebanho, longe dos perigos do mundo humano, o grande sonho de Ginger. Quando ela e Rocky chocam uma menininha chamada Molly, o final feliz de Ginger parece completo, mas no continente, todo o tipo de frango enfrenta uma nova e terrível ameaça. Para Ginger e sua equipe, mesmo que isso signifique colocar em risco sua liberdade conquistada com muito esforço, eles terão que intervir.
                     </p>
                 </div>
             </div>
             <h3>Elenco</h3>
-            <ul>
-                <li>
-                    <a href="#">Thandiwe Newton como Ginger
+            <ul class="main__container__nuggets__list">
+                <li class="main__container__nuggets__list__item">
+                    <a href="#">Thandiwe Newton <span>como</span> Ginger
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Zachary Levi como Rocky
+                <li class="main__container__nuggets__list__item">
+                    <a href="#">Zachary Levi <span>como</span> Rocky
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Bella Ramsey como Molly
+                <li class="main__container__nuggets__list__item">
+                    <a href="#">Bella Ramsey <span>como</span> Molly
 
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Romesh Ranganathan como Nick
+                <li class="main__container__nuggets__list__item">
+                    <a href="#">Romesh Ranganathan <span>como</span> Nick
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Daniel Mays como Fletcher
+                <li class="main__container__nuggets__list__item">
+                    <a href="#">Daniel Mays <span>como</span> Fletcher
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">David Bradley como Fowler
+                <li class="main__container__nuggets__list__item">
+                    <a href="#">David Bradley <span>como</span> Fowler
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Jane Horrocks como Babs
+                <li class="main__container__nuggets__list__item">
+                    <a href="#">Jane Horrocks <span>como</span> Babs
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Imelda Staunton como Bunty
+                <li class="main__container__nuggets__list__item">
+                    <a href="#">Imelda Staunton <span>como</span> Bunty
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Lynn Ferguson como Mac
+                <li class="main__container__nuggets__list__item">
+                    <a href="#">Lynn Ferguson <span>como</span> Mac
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Nick Mohammed como Dr. Fry
+                <li class="main__container__nuggets__list__item">
+                    <a href="#">Nick Mohammed <span>como</span> Dr. Fry
 
                     </a>
                 </li>
-                <li>
-                    <a href="#">Josie Sedgwick-Davies como Frizzle
+                <li class="main__container__nuggets__list__item">
+                    <a href="#">Josie Sedgwick-Davies <span>como</span> Frizzle
 
                     </a>
+                </li>
+                <li class="main__container__nuggets__list__item">
+                    <button>
+                        <a href="https://www.netflix.com/br/title/81223025" target="_blank">Assista aqui</a>
+                    </button>
                 </li>
             </ul>
 
@@ -167,6 +186,21 @@
         
 
     </main>
+
+    <footer class="footer">
+        <div class="icon">
+            <i class="bi bi-instagram icon__icone"></i>
+            <i class="bi bi-whatsapp icon__icone"></i>
+            <i class="bi bi-github icon__icone"></i>
+            <i class="bi bi-linkedin icon__icone"></i>
+        </div>
+        <p>
+            © Landing page criado por <a href="https://www.instagram.com/mireli_araujo_?igsh=ZGNjOWZkYTE3MQ==">Mirelly Araújo</a>
+        </p>
+
+    </footer>
+
+    <script src="dist/js/main.js"></script>
 </body>
 
 </html>

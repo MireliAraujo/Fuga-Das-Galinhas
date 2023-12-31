@@ -1,0 +1,10 @@
+@use 'variaveis';
+
+@mixin Botao() {
+    background-color: variaveis.$corPrincipal;
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+}

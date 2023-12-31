@@ -1,5 +1,9 @@
 @use 'header';
 @use 'reset';
+@use 'footer';
+@use 'variaveis';
+@import 'mixin';
+
 
 .main{
     img {
@@ -12,11 +16,50 @@
         margin: auto;
         margin-top: 40px;
     
-        &__fuga{
+        &__fuga, &__nuggets{
             display: flex;
             justify-content: space-between;
             text-align: justify;
+            align-items: center;
+            margin-bottom: 60px;
+            
+            &__sinopse {
+                margin-left: 80px;
+                
+            }
+
+            &__list {
+                list-style: none;
+                margin-bottom: 60px;
+
+                &__item {
+                    
+
+                    a{
+                        text-decoration: none;
+                        color: variaveis.$corSecundaria;
+
+                        span {
+                            color: #000;
+                        }
+                    }
+
+                    button{
+                        @include Botao();
+
+                        a {
+                            color: #fff;
+                            font-family: sans-serif;
+                        }
+                        
+
+                    }
+                }
+
+            }
         }
+
+        
     }
     }
 
